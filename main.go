@@ -34,6 +34,13 @@ var services = []Service{
 			body:   "OK",
 		},
 	},
+	{
+		Location: "/webhook/upgrading",
+		Response: Response{
+			Status: 200,
+			body:   "OK",
+		},
+	},
 }
 
 var (
